@@ -2,6 +2,7 @@ module.exports = {
   dest: 'docs',
   title: 'Email Dashboard',
   description: '📪 An interactive emailing management service with scheduling, templating, tracking...',
+  base: '',
   // head: [
   //   ['link', { rel: 'icon', href: `/img/logo.png` }],
   //   ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -19,13 +20,11 @@ module.exports = {
       { text: 'Github', link: 'https://github.com/Email-Dashboard/Email-Dashboard' },
       { text: 'Demo', link: 'https://dashboard.pigon.ws' }
     ],
-    sidebar: {
-      '/guide/': [
-        '',
-        'deployment',
-        'development'
-      ]
-    }
+    sidebar: [
+      ['/guide/', 'Home'],
+      '/guide/deployment',
+      '/guide/development'
+    ]
   },
   serviceWorker: true,
   port: 8000
