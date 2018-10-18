@@ -13,10 +13,6 @@ git init
 git add -A
 git commit -m 'Deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:SeaDude/SeaDude.github.io.git master
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:Email-Dashboard/email-dashboard.github.io.git master
 
 cd -

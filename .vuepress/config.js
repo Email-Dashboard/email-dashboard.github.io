@@ -16,7 +16,7 @@ module.exports = {
   // ],
   themeConfig: {
     nav: [
-      { text: 'Docs', link: '/guide' },
+      { text: 'Docs', link: '/guide/' },
       { text: 'Github', link: 'https://github.com/Email-Dashboard/Email-Dashboard' },
       { text: 'Demo', link: 'https://dashboard.pigon.ws' }
     ],
