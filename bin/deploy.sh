@@ -2,14 +2,16 @@
 vuepress build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cp -r ./docs/. ../master/
+
+cd ../master/
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'Deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:SeaDude/SeaDude.github.io.git master
