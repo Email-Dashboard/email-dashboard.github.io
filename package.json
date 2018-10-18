@@ -1,8 +1,10 @@
 {
-  "name": "email-dashboard.io",
-  "version": "1.0.0",
+  "name": "email-dashboard.github.io",
   "description": "Doc page of Email-Dashboard",
-  "main": "index.js",
+  "scripts": {
+   "dev": "vuepress dev",
+   "build": "vuepress build"
+  },
   "author": "sadikay",
   "license": "MIT",
   "dependencies": {
