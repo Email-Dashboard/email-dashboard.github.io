@@ -1,10 +1,9 @@
-# Production Deploy
+# Deployment
 
-## Installation
+## Ubuntu Production
 
 ### Install Docker
 
-#### Linux
 Install the most recent version of the Docker Engine for your platform using the [official Docker releases](http://docs.docker.com/engine/installation/), which can also be installed using:
 
 ```bash
@@ -27,7 +26,6 @@ chmod +x /usr/local/bin/docker-compose
 
 ### Create data folders
 
-##### Ubuntu
 ```bash
  mkdir -p /datadrive/mysql && mkdir -p /datadrive/data/redis
 ```
@@ -38,11 +36,9 @@ chmod +x /usr/local/bin/docker-compose
  git clone https://github.com/Email-Dashboard/Email-Dashboard.git
 ```
 
-* Update environment variables with your variables https://github.com/Email-Dashboard/Email-Dashboard/blob/master/.env
+* Update environment variables with your variables [https://github.com/Email-Dashboard/Email-Dashboard/blob/master/.env](https://github.com/Email-Dashboard/Email-Dashboard/blob/master/.env)
 
-* If you are running on macOS enable commented lines in `docker-compose.yml`
-
-## Deploy
+### Deploy
 
 ```bash
   docker-compose build
