@@ -35,7 +35,7 @@ Using dashboard is really easy, like playing PUBG! You can do it any time withou
 }
 ```
 
-## Step By step
+## Step by Step
 
 ### 1- Authorization
 
