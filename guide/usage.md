@@ -82,7 +82,7 @@ Post your Variables to API.
 
 ### 7 - Check the Activity
 
-After posting to API you can check the activities and their statuses. If the activity status is succees the receiver can the inbox as well.
+After posting to API you can check the activities and their statuses. If the activity status is succees the receiver can check the inbox as well.
 
 <p>
 <img src="/img/usages/new-activity.png" alt="" style="max-width:100%;"></a>
