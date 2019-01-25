@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "dbfad8668273b83afbbcfe7c981792fa"
+    "revision": "92fa0ebcecba399358f679cecb044f6f"
   },
   {
     "url": "assets/css/1.styles.fb0253dd.css",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "revision": "67e4f12ed91a03bc12e1a51aac7323dd"
   },
   {
-    "url": "assets/css/styles.835a1414.css",
+    "url": "assets/css/styles.f78cfd4a.css",
     "revision": "cdbcfbd9a0654e6beec824fcc18d54a3"
   },
   {
@@ -72,36 +72,36 @@ self.__precacheManifest = [
     "revision": "81755fd57c0b31f71626edcd53ef6d4b"
   },
   {
-    "url": "assets/js/9.f4afe023.js",
-    "revision": "d3cf701bb8f1c36b2b4d954e4f3e53b2"
+    "url": "assets/js/9.638e52db.js",
+    "revision": "cbd86f82ce8681308a2c198ce1921aaa"
   },
   {
-    "url": "assets/js/app.835a1414.js",
-    "revision": "e7d069bd61a38cbde77031ec00be249e"
+    "url": "assets/js/app.f78cfd4a.js",
+    "revision": "a11d1a8128e049ec4f518add351874cf"
   },
   {
     "url": "guide/deployment.html",
-    "revision": "5dfe0d7585321657d84edd96b021a6a8"
+    "revision": "af09f73392fb08406d4e6b2d6f0433dd"
   },
   {
     "url": "guide/development.html",
-    "revision": "bcf8e7ccd8827be120667fc9d581be56"
+    "revision": "afe2759849dfc7c928ce685e4028577d"
   },
   {
     "url": "guide/index.html",
-    "revision": "183817d4ea5759299bb49d0da9ebe55f"
+    "revision": "b74e3dfa841b4a571b5d911238c09c0e"
   },
   {
     "url": "guide/licence.html",
-    "revision": "118b51f5698bad0441d7cd080c8436b4"
+    "revision": "bec540ff0c1b324a32bbedda0ede899f"
   },
   {
     "url": "guide/README-zh_CN.html",
-    "revision": "dd844025c5bd9826d5027a9f4ea9ca83"
+    "revision": "40f02a9279c0245787b695cf56f20393"
   },
   {
     "url": "guide/usage.html",
-    "revision": "c7fe33cdb647ade43528e279e5709e7d"
+    "revision": "841aed2b16b3eba40f34cda4d8340907"
   },
   {
     "url": "img/logo.png",
@@ -133,7 +133,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d253af14f4073cd1e17fe9c86bdf7e33"
+    "revision": "a759af955e005b301b7134154a1f4cec"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
