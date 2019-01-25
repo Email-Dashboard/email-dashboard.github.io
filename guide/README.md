@@ -29,10 +29,6 @@
 
 Email-Dashboard is an easy way to manage your outgoing emails from your apps. From creating and sending your emails to monitoring and managing their stats, you can do really useful things with Email-Dashboard without worried about **time zone** disaverage. You can [explore Email-Dashboard docs](https://email-dashboard.github.io/guide/).
 
-<p>
-   <a target="_blank" rel="noopener noreferrer" href="https://github.com/Email-Dashboard/Email-Dashboard/blob/master/docs/assets/intro.gif?raw=true"><img src="https://github.com/Email-Dashboard/Email-Dashboard/raw/master/docs/assets/intro.gif?raw=true" alt="" style="max-width:100%;"></a>
-</p>
-
 # Table of content
 
 - [For whom?](#for-whom)
@@ -43,9 +39,9 @@ Email-Dashboard is an easy way to manage your outgoing emails from your apps. Fr
 - [Development](/guide/development.html)
    * [1- MacOS](/guide/development.html#macos)
    * [2- Debian](/guide/development.html#debian)
-- [Usage](#usage)
-   * [1- In Dashboard](#1--in-dashboard)
-   * [2- Posting to REST API](#2--posting-to-rest-api)
+- [Usage](/guide/usage.html)
+   * [1- In Dashboard](/guide/usage.html#in-dashboard)
+   * [2- Posting to REST API](/guide/usage.html#posting-to-rest-api)
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
@@ -76,44 +72,6 @@ Then you're at the right place. **Email Dashboard builded for you!** :tada:
 - [x] Mobile UI
 - [ ] Email tracking.
 - [ ] A/B testing.
-
-# Usage
-
-### 1- In Dashboard
-
-Using dashboard is really easy, like playing PUBG! You can do it any time without any effort. Because our first aim is make some time for our community with our dashboard. So, UI and dashboard is friendly as much as and we will make it better.
-
-:small_orange_diamond: Add your SMTP Settings<br>
-:small_orange_diamond: Create email template with [handlebars](http://handlebarsjs.com/) variables.<br>
-:small_orange_diamond: Create notification. See, easy peasy!<br>
-
-### 2- Posting to REST API
-
-`POST` `https://api.{{yourhost}}/api/v3/notifications/{{notification-slug}}`
-
-`Authorization: Token {{AccountToken}}`
-
-
-```
-{
-   "variables":{
-      "button_name": "Click me!",
-      "name": "John"
-   },
-   "email": {
-      "to": ["test@example.com", "second-to@example.com"],
-      "cc": ["cc-test@example.com"],
-      "reply_to": ["reply-to@example.com"],
-      "from": "myapp@example.com"
-   },
-   "delivery": { # optional
-     "time": "21:00",
-     "date": "2018-09-22",
-     "zone": "Europe/Istanbul"
-   }
-}
-```
-
 
 # Contributing
 Please read our [contribution guidelines](https://email-dashboard.readthedocs.io/en/latest/Contributing/). We are grateful for all contributions! :pray: With following our [rules of the discussions](https://github.com/Email-Dashboard/Email-Dashboard/blob/master/CONTRIBUTING.md), you can contribute many of way. Our [issue tracker](https://github.com/Email-Dashboard/Email-Dashboard/issues) is the preferred channel for bug reports, features requests and submitting pull requests. We utilized several [labels](https://github.com/Email-Dashboard/Email-Dashboard/labels) to help organize and identify issues. You can start with there! Also if you want to add some new feature:

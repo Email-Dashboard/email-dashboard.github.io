@@ -23,7 +23,8 @@ module.exports = {
     sidebar: [
       ['/guide/', 'Home'],
       '/guide/deployment',
-      '/guide/development'
+      '/guide/development',
+      '/guide/usage'
     ]
   },
   serviceWorker: true,
