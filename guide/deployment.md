@@ -1,47 +1,47 @@
 # Deployment
 
-## Ubuntu Production
+## Debian
 
-### Install Docker
+### 1- Install Docker
 
-Install the most recent version of the Docker Engine for your platform using the [official Docker releases](http://docs.docker.com/engine/installation/), which can also be installed using:
+:arrow_forward: Install the most recent version of the Docker Engine for your platform using the [official Docker releases](http://docs.docker.com/engine/installation/), which can also be installed using:<br>
 
 ```bash
 wget -qO- https://get.docker.com/ | sh
 ```
 
-Execute this line to allow docker to execute without being root
+:arrow_forward: Execute this line to allow docker to execute without being root<br>
+
 ```bash
 sudo usermod -aG docker ${USER}
 ```
-Logout, then login again. Permissions should be applied.
+:arrow_forward: Logout, then login again. Permissions should be applied.<br>
 
-### Install Docker Compose
-Install docker compose from the [official page](https://docs.docker.com/compose/install/), or manually run:
+### 2- Install Docker Compose
+
+:arrow_forward: Install Docker Compose from the [official page](https://docs.docker.com/compose/install/), or manually run:<br>
 
 ```bash
 curl -L "https://github.com/docker/compose/releases/download/1.11.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 
-### Create data folders
+### 3- Create data folders
 
 ```bash
  mkdir -p /datadrive/mysql && mkdir -p /datadrive/data/redis
 ```
 
-### Clone repo
+### 4- Clone repo
 
 ```bash
  git clone https://github.com/Email-Dashboard/Email-Dashboard.git
 ```
 
-* Update environment variables with your variables [https://github.com/Email-Dashboard/Email-Dashboard/blob/master/.env](https://github.com/Email-Dashboard/Email-Dashboard/blob/master/.env)
+:arrow_forward: Update environment variables with your variables `https://github.com/Email-Dashboard/Email-Dashboard/blob/master/.env`<br>
 
-### Deploy
 
 ```bash
   docker-compose build
-  docker-compose run web rake db:migrate
   docker-compose up -d
 ```
