@@ -2,7 +2,7 @@
 <p align="center">
    An interactive emailing management service<br>
    with scheduling, templating, tracking and A/B testing.<br>
-   <a href="https://dashboard.pigon.ws">
+   <a href="http://email-dashboard.svteknoloji.com">
    <strong>Live demo of Email-Dashboard »</strong>
    </a>
  </p>

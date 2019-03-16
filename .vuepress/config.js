@@ -18,7 +18,7 @@ module.exports = {
     nav: [
       { text: 'Docs', link: '/guide/' },
       { text: 'Github', link: 'https://github.com/Email-Dashboard/Email-Dashboard' },
-      { text: 'Demo', link: 'https://dashboard.pigon.ws' }
+      { text: 'Demo', link: 'http://email-dashboard.svteknoloji.com' }
     ],
     sidebar: [
       ['/guide/', 'Home'],

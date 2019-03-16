@@ -39,7 +39,7 @@ Using dashboard is really easy, like playing PUBG! You can do it any time withou
 
 ### 1- Authorization
 
-Sign in or Sign up to dashboard through `dashboard.yourappdomain.com` or on live demo [dashboard.pigon.ws](https://dashboard.pigon.ws).
+Sign in or Sign up to dashboard through `dashboard.yourappdomain.com` or on live demo [http://email-dashboard.svteknoloji.com](http://email-dashboard.svteknoloji.com).
 
 ### 2 - Create New Account
 
